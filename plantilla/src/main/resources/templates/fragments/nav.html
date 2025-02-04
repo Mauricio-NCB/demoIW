@@ -39,13 +39,13 @@
                             </li>
                             <li class="nav-item align-self-center">
                                 <form th:action="@{/logout}" method="post">
-                                    <button type="submit" class="btn btn-outline-secondary btn-sm">logout</button>
+                                    <button type="submit" class="btn btn-outline-secondary btn-sm">Cerrar sesión </button>
                                 </form>
                             </li>
                         </th:block>
                         <th:block th:unless="${u}">
                             <li class="nav-item mx-2">
-                                <a class="nav-link" th:href="@{/login}" href="/login">Login</a>
+                                <a class="nav-link" th:href="@{/login}" href="/login">Iniciar sesión </a>
                             </li>
                             <!--/*
                                 Esto es un comentario "thymeleaf" - no se verá en el HTML
