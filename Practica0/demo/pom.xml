@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.ucm.fdi.iw</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>Parchis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>Parchis</name>
 	<description>Adivina un número</description>
 	<url/>
 	<licenses>
